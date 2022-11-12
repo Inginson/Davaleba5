@@ -9,21 +9,6 @@
   border: 2px solid blue;
 }
 
-ul {
-  display: inline-block;
-  vertical-align: middle;
-}
-
-.headlist {
-  display: inline-block;
-  border: 1px solid red;
-  margin-right: 104px;
-  font-family:'Brandon Grotesque';
-  font-size: 18px;
-  font-weight: 400;
-
-}
-
 .logo {
   display: inline-block;
   border: 1px solid rebeccapurple;
@@ -33,19 +18,42 @@ ul {
   margin: 17px 74px 39px 44px;
   opacity: 75%;
   vertical-align: middle;
+  cursor: pointer;
 }
+
+
+ul {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.headlist {
+  display: inline-block;
+  border: 1px solid red;
+  margin-right: 104px;
+  font-family: 'Brandon Grotesque';
+  font-size: 18px;
+  font-weight: 400;
+  cursor: pointer;
+
+}
+
+.magnifier{
+  cursor: pointer;
+}
+
 
 
 
 /* აქედან იწყება სექცია */
 
-.section{
+.section {
   width: 1280px;
   background-color: #306B34;
   border: 2px solid yellow;
 }
 
-.book{
+.book {
   width: 679px;
   border: 2px solid red;
   display: inline-block;
@@ -53,7 +61,7 @@ ul {
   margin: 174px 0px 152px 90px;
 }
 
-.textbox1{
+.textbox1 {
   width: 306px;
   display: inline-block;
   vertical-align: middle;
@@ -61,10 +69,10 @@ ul {
   margin: 174px 0px 199px 89px;
 }
 
-.title1{
-  font-family:'Brandon Grotesque';
+.title1 {
+  font-family: 'Brandon Grotesque';
   font-size: 40px;
-  margin: 0px ;
+  margin: 0px;
   display: inline-block;
   border: 1px solid red;
   vertical-align: middle;
@@ -74,13 +82,62 @@ ul {
   color: #19381F;
 }
 
-.text1{
+.text1 {
   display: inline-block;
   font-size: 20px;
   color: #F4F4F1;
   font-family: 'Kazimir';
   font-style: italic;
-  font: weight 300px;
+  font-weight: 300px; 
   line-height: 30px;
-  
+
+}
+
+
+/* აქედან იწყება არტიკლი */
+
+.article{
+  width: 1280px;
+  border: 3px solid darkorange;
+}
+
+.textbox2{
+  width: 1000px;
+  border: 3px solid #306B34;
+  display: block;
+  margin: 75px 138px 69px 184px;
+
+}
+
+.title2{
+  font-family: 'Kazimir';
+  font-size: 40px;
+  font-style: italic;
+  font-weight: 400;
+  text-align: center;
+  padding-bottom: 70px;
+  color: #36413E;
+}
+
+.text2{
+  font-family: 'Kazimir';
+  font-size: 20px;
+  font-weight: 500;
+  font-style: italic;
+  color: #7F7F7F;
+  text-align: center;
+  line-height: 27px;
+}
+
+.button{
+  width: 148px;
+  background-color:#36413E;
+  border: #707070;
+  color: white;
+  padding: 15px 25px 17px 25px;
+  margin: 0px 542px 33px 590px;
+  font-family: 'Brandon Grotesque';
+  font-weight: 800;
+  font-size: 12px;
+  cursor: pointer;
 }

@@ -23,7 +23,14 @@
     font-weight: normal;
     font-style: normal;
     font-display: swap;
+    
+    src: url('/Fonts/Kazimir-LightItalic.woff2') format('woff2'),
+        url('/Fonts/Kazimir-LightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
 }
+
 
 @font-face {
     font-family: 'Brandon Grotesque';
@@ -31,15 +38,6 @@
         url('/Fonts/BrandonGrotesque-Light.woff') format('woff');
     font-weight: 300;
     font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Kazimir';
-    src: url('Kazimir-LightItalic.woff2') format('woff2'),
-        url('Kazimir-LightItalic.woff') format('woff');
-    font-weight: 300;
-    font-style: italic;
     font-display: swap;
 }
 

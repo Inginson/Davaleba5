@@ -34,3 +34,53 @@ ul {
   opacity: 75%;
   vertical-align: middle;
 }
+
+
+
+/* აქედან იწყება სექცია */
+
+.section{
+  width: 1280px;
+  background-color: #306B34;
+  border: 2px solid yellow;
+}
+
+.book{
+  width: 679px;
+  border: 2px solid red;
+  display: inline-block;
+  vertical-align: middle;
+  margin: 174px 0px 152px 90px;
+}
+
+.textbox1{
+  width: 306px;
+  display: inline-block;
+  vertical-align: middle;
+  border: 10px solid black;
+  margin: 174px 0px 199px 89px;
+}
+
+.title1{
+  font-family:'Brandon Grotesque';
+  font-size: 40px;
+  margin: 0px ;
+  display: inline-block;
+  border: 1px solid red;
+  vertical-align: middle;
+  padding-bottom: 40px;
+  font-size: 40px;
+  font-family: 'Brandon Grotesque';
+  color: #19381F;
+}
+
+.text1{
+  display: inline-block;
+  font-size: 20px;
+  color: #F4F4F1;
+  font-family: 'Kazimir';
+  font-style: italic;
+  font: weight 300px;
+  line-height: 30px;
+  
+}

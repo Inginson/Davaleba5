@@ -1,17 +1,15 @@
 .container {
   width: 1280px;
   margin: 0 auto;
-  border: 2px solid brown;
+  border: 1px solid rgb(201, 201, 201)
 }
 
 .header {
   width: 1280px;
-  border: 2px solid blue;
 }
 
 .logo {
   display: inline-block;
-  border: 1px solid rebeccapurple;
   font-family: 'Kazimir';
   font-weight: 600;
   font-size: 70px;
@@ -29,7 +27,6 @@ ul {
 
 .headlist {
   display: inline-block;
-  border: 1px solid red;
   margin-right: 104px;
   font-family: 'Brandon Grotesque';
   font-size: 18px;
@@ -50,12 +47,10 @@ ul {
 .section {
   width: 1280px;
   background-color: #306B34;
-  border: 2px solid yellow;
 }
 
 .book {
   width: 679px;
-  border: 2px solid red;
   display: inline-block;
   vertical-align: middle;
   margin: 174px 0px 152px 90px;
@@ -65,7 +60,6 @@ ul {
   width: 306px;
   display: inline-block;
   vertical-align: middle;
-  border: 10px solid black;
   margin: 174px 0px 199px 89px;
 }
 
@@ -74,7 +68,6 @@ ul {
   font-size: 40px;
   margin: 0px;
   display: inline-block;
-  border: 1px solid red;
   vertical-align: middle;
   padding-bottom: 40px;
   font-size: 40px;
@@ -98,12 +91,10 @@ ul {
 
 .article{
   width: 1280px;
-  border: 3px solid darkorange;
 }
 
 .textbox2{
   width: 1000px;
-  border: 3px solid #306B34;
   display: block;
   margin: 75px 138px 69px 184px;
 
@@ -140,4 +131,33 @@ ul {
   font-weight: 800;
   font-size: 12px;
   cursor: pointer;
+}
+
+
+/* აქედან იწყება ფუტერი */
+
+.footer{
+  width: 1280px;
+  background-color: #306B34;
+  vertical-align: middle;
+  display: inline-block;
+}
+
+.text3{
+  display: inline-block;
+  font-family:'Brandon Grotesque';
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  margin: 18px 0px 23px 75px;
+  vertical-align: middle;
+}
+
+.copyright{
+  display: inline-block;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 12px;
+  color: white;
+  margin: 18px 110px 23px 725px;
+  vertical-align: middle;
 }

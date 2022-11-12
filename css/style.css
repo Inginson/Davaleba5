@@ -1,5 +1,36 @@
-.container{
+.container {
   width: 1280px;
   margin: 0 auto;
-  border:2px solid brown
+  border: 2px solid brown;
+}
+
+.header {
+  width: 1280px;
+  border: 2px solid blue;
+}
+
+ul {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.headlist {
+  display: inline-block;
+  border: 1px solid red;
+  margin-right: 104px;
+  font-family:'Brandon Grotesque';
+  font-size: 18px;
+  font-weight: 400;
+
+}
+
+.logo {
+  display: inline-block;
+  border: 1px solid rebeccapurple;
+  font-family: 'Kazimir';
+  font-weight: 600;
+  font-size: 70px;
+  margin: 17px 74px 39px 44px;
+  opacity: 75%;
+  vertical-align: middle;
 }

@@ -18,8 +18,8 @@
 
 @font-face {
     font-family: 'Kazimir';
-    src: url('/Fonts/BrandonGrotesque-Light.woff2') format('woff2'),
-        url('/Fonts/BrandonGrotesque-Light.woff') format('woff');
+    src: url('/Fonts/Kazimir-Regular.woff2') format('woff2'),
+        url('/Fonts/Kazimir-Regular.woff') format('woff');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
